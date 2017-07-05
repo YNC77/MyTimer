@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyTimer</string>
+    <string name="break_remind">It"s time to take a 10-minutes break!</string>
+    <string name="work_remind">Let"s get back to work!</string>
+    <string name="dialog_positive_break">REST!</string>
+    <string name="dialog_positive_work">Work!</string>
+    <string name="dialog_negative">NO!</string>
+</resources>
