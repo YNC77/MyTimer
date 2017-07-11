@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="#FFFFFF"
     tools:context="com.example.ync.mytimer.MainActivity">
 
     <LinearLayout
@@ -13,8 +13,7 @@
         android:orientation="vertical"
         android:paddingBottom="20dp"
         tools:layout_editor_absoluteX="8dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="0dp">
+        tools:layout_editor_absoluteY="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -22,7 +21,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
-            android:background="@color/colorPrimaryDark"
+            android:background="@color/clockBreak"
             android:gravity="center"
             android:orientation="horizontal"
             android:paddingBottom="20dp"
@@ -52,7 +51,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/clockBreak"
                 app:srcCompat="@android:drawable/ic_media_play" />
 
             <ImageButton
@@ -62,7 +61,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/clockBreak"
                 android:visibility="gone"
                 app:srcCompat="@android:drawable/ic_media_pause" />
 

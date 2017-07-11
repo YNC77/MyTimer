@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="clockBlock">#85c0e8</color>
     <color name="dottomBlock">#3597da</color>
+    <color name="clockBreak">#f0e2cf</color>
 </resources>
